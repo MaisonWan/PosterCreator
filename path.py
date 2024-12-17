@@ -18,7 +18,7 @@ poster_today_path = ''
 # 检查，不存在则创建文件目录
 def check_dir(file_dir):
     if not os.path.exists(file_dir):
-        os.mkdir(file_dir)
+        os.makedirs(file_dir)
 
 
 def today_path():
