@@ -1,0 +1,39 @@
+{
+  "name": "config",
+  "version": "1.0.0",
+  "templates": [
+    {
+      "name": "国泰沣享",
+      "file_name": "guotaifengxiang.png",
+      "text_style": [
+        {
+          "position_x": 540,
+          "position_y": 1000,
+          "text_font": "Arial Unicode.ttf",
+          "text_size": 100,
+          "text_color": "#EEA45D",
+          "stroke_width": 0,
+          "stroke_color": ""
+        },
+        {
+          "position_x": 540,
+          "position_y": 1150,
+          "text_font": "Arial Unicode.ttf",
+          "text_size": 100,
+          "text_color": "#EEA45D",
+          "stroke_width": 0,
+          "stroke_color": ""
+        },
+        {
+          "position_x": 540,
+          "position_y": 1300,
+          "text_font": "Arial Unicode.ttf",
+          "text_size": 150,
+          "text_color": "#EEA45D",
+          "stroke_width": 8,
+          "stroke_color": "#F9F8A3"
+        }
+      ]
+    }
+  ]
+}
