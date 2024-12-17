@@ -26,13 +26,15 @@ def __write_word__(draw, style, text):
 
 
 class PosterCreator:
-    def __init__(self, config, text_line=''):
+    def __init__(self, template_name, config, text_line=''):
         """
         具体绘制的类，初始化文本配置类型，具体打印的文本
         :param config:按照每个文本的类型
         :param text_line:命令行输入的信息，需要拆解
         """
         self.text_style_list = list()
+        self.template_name = template_name
+
         # 分解文本
         self.text_list = list()
         for t in text_line.split('，'):
@@ -66,7 +68,7 @@ class PosterCreator:
         print("生成海报：%s" % full_path)
 
     def __output_image_file_name_(self):
-        name = ''
+        name = self.template_name + '_'
         for t in self.text_list:
             name += t + '_'
         return name[:-1] + ".png"

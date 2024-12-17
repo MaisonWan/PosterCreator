@@ -14,6 +14,9 @@ class Config:
     def get_template(self, index):
         return self.template_list[index]
 
+    def get_template_name(self, index):
+        return self.template_list[index]['name']
+    
     def get_template_name_list(self):
         name_list = list()
         for t in self.template_list:

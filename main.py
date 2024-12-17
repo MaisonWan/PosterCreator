@@ -35,5 +35,7 @@ if __name__ == '__main__':
     info_list = show_person_info_menu()
 
     for person in info_list:
-        creator = PosterCreator(config.get_template(template_index), person)
+        template_name = config.get_template_name(template_index)
+        template_config = config.get_template(template_index)
+        creator = PosterCreator(template_name, template_config, person)
         creator.build()
