@@ -20,7 +20,7 @@ def show_template_menu(name_list):
 
 
 def show_person_info_menu():
-    print("请批量输入海报信息，空行回车视为结束。格式如：天坛，张三，100万")
+    print("请批量输入海报信息，空行回车视为结束。格式如：天坛 张三 100万")
     info = list()
     line = input()
     while line != "":

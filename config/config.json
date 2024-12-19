@@ -4,33 +4,264 @@
   "templates": [
     {
       "name": "国泰沣享",
-      "file_name": "guotaifengxiang.png",
+      "file_name": "信托.jpg",
       "text_style": [
         {
-          "position_x": 540,
-          "position_y": 1000,
-          "text_font": "Arial Unicode.ttf",
+          "position_x": 630,
+          "position_y": 1200,
+          "text_font": "weiruanyahei.ttf",
           "text_size": 100,
-          "text_color": "#EEA45D",
+          "text_color": "#FFFFFF",
+          "stroke_width": 0,
+          "stroke_color": "#FFFFFF"
+        },
+        {
+          "position_x": 630,
+          "position_y": 1350,
+          "text_font": "weiruanyahei.ttf",
+          "text_size": 100,
+          "text_color": "#FFFFFF",
+          "stroke_width": 0,
+          "stroke_color": "#FFFFFF"
+        },
+        {
+          "position_x": 630,
+          "position_y": 1500,
+          "text_font": "weiruanyahei.ttf",
+          "text_size": 100,
+          "text_color": "#FFFFFF",
+          "stroke_width": 0,
+          "stroke_color": "#FFFFFF"
+        }
+      ]
+    },
+    {
+      "name": "结构化",
+      "file_name": "jiegouhua.png",
+      "text_style": [
+        {
+          "position_x": 527,
+          "position_y": 780,
+          "text_font": "C:\\Users\\bunny\\AppData\\Local\\Microsoft\\Windows\\Fonts\\hyb2gjm.ttf",
+          "text_size": 100,
+          "text_color": "#FFD394",
           "stroke_width": 0,
           "stroke_color": ""
         },
         {
-          "position_x": 540,
-          "position_y": 1150,
-          "text_font": "Arial Unicode.ttf",
+          "position_x": 527,
+          "position_y": 920,
+          "text_font": "C:\\Users\\bunny\\AppData\\Local\\Microsoft\\Windows\\Fonts\\hyb2gjm.ttf",
           "text_size": 100,
-          "text_color": "#EEA45D",
+          "text_color": "#FFD394",
           "stroke_width": 0,
           "stroke_color": ""
         },
         {
-          "position_x": 540,
-          "position_y": 1300,
-          "text_font": "Arial Unicode.ttf",
+          "position_x": 527,
+          "position_y": 1100,
+          "text_font": "C:\\Windows\\Fonts\\STHUPO.TTF",
           "text_size": 150,
-          "text_color": "#EEA45D",
-          "stroke_width": 8,
+          "text_color": "#FFD394",
+          "stroke_width": 0,
+          "stroke_color": ""
+        }
+      ]
+    },
+    {
+      "name": "星石",
+      "file_name": "xingshi.png",
+      "text_style": [
+        {
+          "position_x": 553,
+          "position_y": 815,
+          "text_font": "C:\\Users\\bunny\\AppData\\Local\\Microsoft\\Windows\\Fonts\\hyb2gjm.ttf",
+          "text_size": 90,
+          "text_color": "#FFFFFF",
+          "stroke_width": 0,
+          "stroke_color": ""
+        },
+        {
+          "position_x": 553,
+          "position_y": 970,
+          "text_font": "C:\\Users\\bunny\\AppData\\Local\\Microsoft\\Windows\\Fonts\\hyb2gjm.ttf",
+          "text_size": 100,
+          "text_color": "#C90000",
+          "stroke_width": 0,
+          "stroke_color": ""
+        },
+        {
+          "position_x": 553,
+          "position_y": 1100,
+          "text_font": "C:\\Windows\\Fonts\\STHUPO.TTF",
+          "text_size": 150,
+          "text_color": "#C90000",
+          "stroke_width": 0,
+          "stroke_color": "#F9F8A3"
+        }
+      ]
+    },
+    {
+      "name": "保险金信托",
+      "file_name": "baoxianjinxintuo.png",
+      "text_style": [
+        {
+          "position_x": 543,
+          "position_y": 780,
+          "text_font": "C:\\Users\\bunny\\AppData\\Local\\Microsoft\\Windows\\Fonts\\hyb2gjm.ttf",
+          "text_size": 90,
+          "text_color": "#C90000",
+          "stroke_width": 0,
+          "stroke_color": ""
+        },
+        {
+          "position_x": 543,
+          "position_y": 950,
+          "text_font": "C:\\Users\\bunny\\AppData\\Local\\Microsoft\\Windows\\Fonts\\hyb2gjm.ttf",
+          "text_size": 100,
+          "text_color": "#FFDBA7",
+          "stroke_width": 0,
+          "stroke_color": ""
+        },
+        {
+          "position_x": 543,
+          "position_y": 1100,
+          "text_font": "C:\\Windows\\Fonts\\STHUPO.TTF",
+          "text_size": 150,
+          "text_color": "#FFDBA7",
+          "stroke_width": 0,
+          "stroke_color": "#F9F8A3"
+        }
+      ]
+    },
+    {
+      "name": "投资类信托",
+      "file_name": "touzileixintuo.png",
+      "text_style": [
+        {
+          "position_x": 555,
+          "position_y": 760,
+          "text_font": "C:\\Users\\bunny\\AppData\\Local\\Microsoft\\Windows\\Fonts\\hyb2gjm.ttf",
+          "text_size": 100,
+          "text_color": "#FFDBA7",
+          "stroke_width": 0,
+          "stroke_color": ""
+        },
+        {
+          "position_x": 555,
+          "position_y": 900,
+          "text_font": "C:\\Windows\\Fonts\\MSYHBD.TTC",
+          "text_size": 100,
+          "text_color": "#FFDBA7",
+          "stroke_width": 0,
+          "stroke_color": ""
+        },
+        {
+          "position_x": 555,
+          "position_y": 1150,
+          "text_font": "C:\\Windows\\Fonts\\STHUPO.TTF",
+          "text_size": 150,
+          "text_color": "#FFDBA7",
+          "stroke_width": 0,
+          "stroke_color": "#F9F8A3"
+        }
+      ]
+    },
+    {
+      "name": "永续信托",
+      "file_name": "yongxuxintuo.png",
+      "text_style": [
+        {
+          "position_x": 555,
+          "position_y": 760,
+          "text_font": "C:\\Users\\bunny\\AppData\\Local\\Microsoft\\Windows\\Fonts\\hyb2gjm.ttf",
+          "text_size": 100,
+          "text_color": "#FFDBA7",
+          "stroke_width": 0,
+          "stroke_color": ""
+        },
+        {
+          "position_x": 555,
+          "position_y": 900,
+          "text_font": "C:\\Users\\bunny\\AppData\\Local\\Microsoft\\Windows\\Fonts\\hyb2gjm.ttf",
+          "text_size": 100,
+          "text_color": "#FFDBA7",
+          "stroke_width": 0,
+          "stroke_color": ""
+        },
+        {
+          "position_x": 555,
+          "position_y": 1150,
+          "text_font": "C:\\Windows\\Fonts\\STHUPO.TTF",
+          "text_size": 150,
+          "text_color": "#FFDBA7",
+          "stroke_width": 0,
+          "stroke_color": "#F9F8A3"
+        }
+      ]
+    },
+    {
+      "name": "灵均",
+      "file_name": "lingjun.png",
+      "text_style": [
+        {
+          "position_x": 553,
+          "position_y": 815,
+          "text_font": "C:\\Users\\bunny\\AppData\\Local\\Microsoft\\Windows\\Fonts\\hyb2gjm.ttf",
+          "text_size": 90,
+          "text_color": "#FFFFFF",
+          "stroke_width": 0,
+          "stroke_color": ""
+        },
+        {
+          "position_x": 553,
+          "position_y": 970,
+          "text_font": "C:\\Users\\bunny\\AppData\\Local\\Microsoft\\Windows\\Fonts\\simkai.ttf",
+          "text_size": 100,
+          "text_color": "#C90000",
+          "stroke_width": 0,
+          "stroke_color": ""
+        },
+        {
+          "position_x": 553,
+          "position_y": 1100,
+          "text_font": "C:\\Windows\\Fonts\\STHUPO.TTF",
+          "text_size": 150,
+          "text_color": "#C90000",
+          "stroke_width": 0,
+          "stroke_color": "#F9F8A3"
+        }
+      ]
+    },
+    {
+      "name": "光证慧享",
+      "file_name": "guangzheng.png",
+      "text_style": [
+        {
+          "position_x": 628,
+          "position_y": 1220,
+          "text_font": "C:\\Users\\bunny\\AppData\\Local\\Microsoft\\Windows\\Fonts\\方正粗黑宋简体.ttf",
+          "text_size": 130,
+          "text_color": "#FCE1B4",
+          "stroke_width": 0,
+          "stroke_color": ""
+        },
+        {
+          "position_x": 628,
+          "position_y": 1430,
+          "text_font": "C:\\Users\\bunny\\AppData\\Local\\Microsoft\\Windows\\Fonts\\方正粗黑宋简体.ttf",
+          "text_size": 110,
+          "text_color": "#FCE1B4",
+          "stroke_width": 0,
+          "stroke_color": ""
+        },
+        {
+          "position_x": 628,
+          "position_y": 1650,
+          "text_font": "C:\\Windows\\Fonts\\方正粗黑宋简体.ttf",
+          "text_size": 170,
+          "text_color": "#FCE1B4",
+          "stroke_width": 0,
           "stroke_color": "#F9F8A3"
         }
       ]

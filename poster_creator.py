@@ -16,6 +16,10 @@ def __write_word__(draw, style, text):
     stroke_width = style['stroke_width']
     stroke_color = style['stroke_color']
 
+    # 判断字体是否存在
+    if not os.path.exists(text_font):
+        text_font = path.get_font_path(text_font)
+
     font = ImageFont.truetype(font=text_font, size=text_size)  # 创建字体器
     text_length = draw.textlength(text=text, font=font)
     if stroke_width > 0:
@@ -37,7 +41,7 @@ class PosterCreator:
 
         # 分解文本
         self.text_list = list()
-        for t in text_line.split('，'):
+        for t in text_line.split(' '):
             self.text_list.append(t)
 
         # 模板文件名称

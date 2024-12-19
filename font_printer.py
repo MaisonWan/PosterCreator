@@ -2,16 +2,11 @@
 import os
 from PIL import Image, ImageDraw, ImageFont
 
-from path import check_dir, base_data
+from path import check_dir, base_data, font_dirs
 
 
 # 获取 macOS 系统中所有可用字体路径
 def list_available_fonts():
-    font_dirs = [
-        "/System/Library/Fonts/",
-        "/Library/Fonts/",
-        "~/Library/Fonts/"
-    ]
     fonts = []
     for font_dir in font_dirs:
         full_path = os.path.expanduser(font_dir)
@@ -23,7 +18,7 @@ def print_font(text, fonts, font_size, output_path):
     # 设置每行字体的高度
     text_height = 250
 
-    image = Image.new('RGB', (2400, text_height * (len(fonts) + 1)), (255, 255, 255))
+    image = Image.new('RGB', (3000, text_height * (len(fonts) + 1)), (255, 255, 255))
     draw = ImageDraw.Draw(image)
     for index in range(len(fonts)):
         try:
@@ -40,4 +35,4 @@ if __name__ == '__main__':
     fonts = list_available_fonts()
     check_dir(base_data)
     output_path = os.path.join(base_data, "字体范例.png")
-    print_font("王逸伟", fonts, 70, output_path)
+    print_font("王小兔 abc 123", fonts, 70, output_path)
