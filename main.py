@@ -24,7 +24,12 @@ def show_person_info_menu():
     info = list()
     line = input()
     while line != "":
-        info.append(line[1:] if line.startswith("🔥") else line)
+        if line.startswith("[玫瑰]"):
+            info.append(line[4:])
+        elif line.startswith("🔥"):
+            info.append(line[1:])
+        else:
+            info.append(line)
         line = input()
     return info
 
